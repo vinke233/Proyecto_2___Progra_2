@@ -5,6 +5,7 @@
 #ifndef PROYECTO_2___PROGRA_2_SUSCRIPTOR_H
 #define PROYECTO_2___PROGRA_2_SUSCRIPTOR_H
 
+#include "Utilities.h"
 
 class Suscriptor {
 };

@@ -29,4 +29,5 @@ add_executable(Proyecto_2___Progra_2 main.cpp
         VideoMPG.cpp
         VideoMPG.h
         Iterador.h
+        Utilities.h
 )

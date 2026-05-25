@@ -4,7 +4,7 @@
 
 #ifndef PROYECTO_2___PROGRA_2_LISTAUSUARIOS_H
 #define PROYECTO_2___PROGRA_2_LISTAUSUARIOS_H
-
+#include "Utilities.h"
 /*
  * Crea Iterador
  */

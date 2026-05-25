@@ -4,7 +4,7 @@
 
 #ifndef PROYECTO_2___PROGRA_2_VIDEO_H
 #define PROYECTO_2___PROGRA_2_VIDEO_H
-
+#include "Utilities.h"
 /*
  * Hereda AdaptadorMPG
  * Hereda VideoMP4

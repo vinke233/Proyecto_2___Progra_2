@@ -4,7 +4,7 @@
 
 #ifndef PROYECTO_2___PROGRA_2_USUARIO_H
 #define PROYECTO_2___PROGRA_2_USUARIO_H
-
+#include "Utilities.h"
 /*
  * Posee Canal
  * Implementa subscriptor
