@@ -4,7 +4,7 @@
 
 #ifndef PROYECTO_2___PROGRA_2_SISTEMANOTIFICACIONES_H
 #define PROYECTO_2___PROGRA_2_SISTEMANOTIFICACIONES_H
-
+#include "Utilities.h"
 
 class SistemaNotificaciones {
 };

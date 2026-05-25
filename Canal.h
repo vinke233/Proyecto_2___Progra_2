@@ -4,6 +4,7 @@
 
 #ifndef PROYECTO_2___PROGRA_2_CANAL_H
 #define PROYECTO_2___PROGRA_2_CANAL_H
+#include "Utilities.h"
 /*
  * Contiene Video
  */
