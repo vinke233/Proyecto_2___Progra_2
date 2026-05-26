@@ -7,6 +7,20 @@
 
 #include "Utilities.h"
 class VideoMPG {
+private:
+    char* rutaArchivo;
+
+    void copiarRuta(const char* ruta);
+
+public:
+    VideoMPG(const char* rutaArchivo);
+    VideoMPG(const VideoMPG& other);
+    VideoMPG& operator=(const VideoMPG& other);
+    ~VideoMPG();
+
+    void playAntiguo();
+
+    const char* getRutaArchivo() const;
 };
 
 
