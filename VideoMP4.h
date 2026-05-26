@@ -6,7 +6,24 @@
 #define PROYECTO_2___PROGRA_2_VIDEOMP4_H
 
 #include "Utilities.h"
-class VideoMP4 {
+#include"Video.h"
+
+class VideoMP4: public Video {
+private:
+    char* rutaArchivo;
+
+    void copiarRuta(const char* ruta);
+
+public:
+    VideoMP4(const char* nombre,const char* descripcion,const char* canal,const char* rutaArchivo);
+
+    VideoMP4(const VideoMP4& other);
+    VideoMP4& operator=(const VideoMP4& other);
+    ~VideoMP4();
+
+    void play() override;
+
+    const char* getRutaArchivo() const;
 };
 
 
