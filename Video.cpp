@@ -8,7 +8,6 @@ void Video::copiarTexto(char*& destino, const char* fuente) {
     if (fuente == 0) {
         fuente = "";
     }
-
     destino = new char[std::strlen(fuente) + 1];
     std::strcpy(destino, fuente);
 }
