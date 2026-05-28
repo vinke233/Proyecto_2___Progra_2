@@ -34,3 +34,4 @@ void stringMenu::stringMenuUsuarios() {
     << " 5) Desuscribirme de un Canal\n"
     << " 6) Salir\n\n";
 }
+/**/
