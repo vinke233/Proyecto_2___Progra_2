@@ -9,7 +9,6 @@
 class VideoMPG {
 private:
     char* rutaArchivo;
-
     void copiarRuta(const char* ruta);
 
 public:
@@ -17,7 +16,6 @@ public:
     VideoMPG(const VideoMPG& other);
     VideoMPG& operator=(const VideoMPG& other);
     ~VideoMPG();
-
     void playAntiguo();
 
     const char* getRutaArchivo() const;

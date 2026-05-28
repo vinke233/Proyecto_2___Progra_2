@@ -17,15 +17,12 @@ protected:
     char* nombre;
     char* descripcion;
     char* canal;
-
     void copiarTexto(char*& destino, const char* fuente);
-
 public:
     Video(const char* nombre, const char* descripcion, const char* canal);
     Video(const Video& other);
     Video& operator=(const Video& other);
     virtual ~Video();
-
     virtual void play() = 0;
 
     const char* getNombre() const;

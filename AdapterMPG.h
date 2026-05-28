@@ -16,11 +16,9 @@
 class AdapterMPG:public Video {
 private:
     VideoMPG* videoMPG;
-
 public:
     AdapterMPG(const char* nombre,const char* descripcion,const char* canal,VideoMPG* videoMPG);
     ~AdapterMPG();
-
     void play() override;
 };
 

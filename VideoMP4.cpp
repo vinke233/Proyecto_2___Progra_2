@@ -5,18 +5,12 @@
 #include "VideoMP4.h"
 
 void VideoMP4::copiarRuta(const char* ruta) {
-    if (ruta == 0) {
-        ruta = "";
-    }
-
+    if (ruta == 0) {ruta = "";}
     rutaArchivo = new char[std::strlen(ruta) + 1];
     std::strcpy(rutaArchivo, ruta);
 }
 
-VideoMP4::VideoMP4(const char* nombre,
-                   const char* descripcion,
-                   const char* canal,
-                   const char* rutaArchivo)
+VideoMP4::VideoMP4(const char* nombre, const char* descripcion, const char* canal, const char* rutaArchivo)
     : Video(nombre, descripcion, canal) {
     this->rutaArchivo = 0;
     copiarRuta(rutaArchivo);
